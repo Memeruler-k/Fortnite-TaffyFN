@@ -124,33 +124,6 @@ xui.Class('App', 'xui.Module',{
             );
             
             append(
-                xui.create("xui.UI.CheckBox")
-                .setHost(host,"xui_ui_checkbox2")
-                .setLeft("48em")
-                .setTop("21.333333333333332em")
-                .setWidth("12em")
-                .setCaption("Use Auth")
-            );
-            
-            append(
-                xui.create("xui.UI.CheckBox")
-                .setHost(host,"xui_ui_checkbox3")
-                .setLeft("48em")
-                .setTop("22.857142857142858em")
-                .setWidth("12em")
-                .setCaption("Realistic Mode")
-            );
-            
-            append(
-                xui.create("xui.UI.CheckBox")
-                .setHost(host,"xui_ui_checkbox4")
-                .setLeft("48em")
-                .setTop("24.38095238095238em")
-                .setWidth("12em")
-                .setCaption("Hybrid Mode")
-            );
-            
-            append(
                 xui.create("xui.UI.Button")
                 .setHost(host,"xui_ui_button9")
                 .setLeft("0em")
@@ -202,18 +175,12 @@ xui.Class('App', 'xui.Module',{
             
             append(
                 xui.create("xui.UI.Label")
-                .setHost(host,"xui_ui_label7")
-                .setLeft("22.095238095238095em")
-                .setTop("10.666666666666666em")
-                .setWidth("11.047619047619047em")
-                .setHeight("10em")
-                .setCaption("TaffyFN")
-                .setFontSize("32")
-                .setCustomStyle({
-                    "KEY" : {
-                        "font-size" : "30"
-                    }
-                })
+                .setHost(host,"xui_ui_label14")
+                .setLeft("21.333333333333332em")
+                .setTop("13.714285714285714em")
+                .setWidth("10.742857142857142em")
+                .setHeight("6.552380952380952em")
+                .setCaption("Currently in Beta!")
             );
             
             return children;
